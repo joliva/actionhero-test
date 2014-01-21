@@ -218,13 +218,7 @@ config.servers = {
 		// which IP to listen on (use 0.0.0.0 for all)
 		bindIP: '0.0.0.0'
 	},
-	"twitter": {
-		hashtag: "nodejs",
-		consumer_key='9UFJg4QaMkY1eOsE3PEpJw',
-		consumer_secret='cYBM7j0lC0E38ZmV77AtSuOx2KTgpJql1hKhRfoO4',
-		access_token='2283553916-1l9JSGA6AFiTDelLmPtp97Nb1xA6w5K5bSMwB3X',
-		access_token_secret='y8biqXd2r7IoadZfXkIAZLG7tFxWdhkig7nuoXGuidnrY',
-};
+}
 
 //////////////////////////////////
 
