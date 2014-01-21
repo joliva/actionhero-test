@@ -6,7 +6,7 @@ exports.middleware = function(api, next){
 				if(match === true){
 					next(connection, true);
 				}else{
-					connection.error = "Authentication Failed.  userName and password required";
+					connection.error = "Authentication Failed.	userName and password required";
 					next(connection, false);
 				}
 			});
@@ -21,7 +21,7 @@ exports.middleware = function(api, next){
 			next();
 	};
 
-	api.middleware._stop =  function(api, next){
+	api.middleware._stop =	function(api, next){
 			next();
 	};
 
